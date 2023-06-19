@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+        <title>Survey</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <h3> Form To Buy Ticket </h3>
+            </div>
+        <form action="">
+            <label for="nama">Name</label><br>
+            <input type="nama" placeholder="Your Name" id="nama"><br><br>
+            <label for="tanggal">Date</label><br>
+            <input type="date" id="tanggal"><br> 
+            
+            <label for="selectOption">Sex:</label><br> 
+            <select id="selectOption"> 
+                <option value="Male">Male</option> 
+                <option value="Female">Female</option> 
+            </select><br><br>
+
+            <p>Tickets:</p>
+            <input type="radio" name="Tickets" id="VIP" value="VIP">
+            <label for="VIP">VIP</label> <br>
+            <input type="radio" name="Tickets" id="Festival-1" value="Festival-1 ">
+            <label for="Festival-1">Festival-1</label> <br>
+            <input type="radio" name="Tickets" id="Festival-2" value="Festival-2">
+            <label for="Festival-2">Festival-2</label><br>
+
+            <label for="">Address</label><br>
+            <textarea placeholder="Write Your Address" name="Address" id="Address" cols="30" rows="5"></textarea><br><br>
+            <center>
+                <button type="submit" onclick="Submit()" >submit</button>
+            </center>
+           
+        </form>
+        </div>
+    </body>
+</html>
